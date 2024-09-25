@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANAD | Igreja</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header class="container" id="home">
+    <img
+      class="toop"
+      src="https://yt3.googleusercontent.com/tQS_bvFUzH3oxlrE4Aj5F1bsGmRZIOJ1T1lk8UBi5jRRnu3z785_Xp3AeGx2-8KwLYtV10tv=s900-c-k-c0x00ffffff-no-rj"
+      alt=""
+    />
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#biblia">Bíblia</a>
+      <a href="#informacoes">Contato</a>
+    </nav>
+  </header>
+  <body>
+    <div>
+      <ul class="slider">
+        <li>
+          <input type="radio" id="slide1" name="slide" checked />
+          <label for="slide1"></label>
+          <img src="https://images.sympla.com.br/5ee2da9ea78a5-lg.jpg" alt="" />
+        </li>
+        <li>
+          <input type="radio" id="slide2" name="slide" />
+          <label for="slide2"></label>
+          <img
+            src="https://i.ytimg.com/vi/txbwCPhAgOs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDggMO-sf9eUfwYhZTA59vDmwDfRQ"
+            alt=""
+          />
+        </li>
+        <li>
+          <input type="radio" id="slide3" name="slide" />
+          <label for="slide3"></label>
+          <img src="https://images.sympla.com.br/5ee2da9ea78a5-lg.jpg" alt="" />
+        </li>
+        <li>
+          <input type="radio" id="slide4" name="slide" />
+          <label for="slide4"></label>
+          <img
+            src="https://i.ytimg.com/vi/3r2_Bkx_6Ag/maxresdefault.jpg"
+            alt=""
+          />
+        </li>
+        <br />
+      </ul>
+    </div>
+    <div>
+      <br /><br /><br />
+      <h1 class="frase">
+        "Ainda que eu andasse pelo vale da sombra da morte, não temeria mal
+        algum, porque tu estás comigo."
+      </h1>
+    </div>
+    <div>
+      <h2 class="titulo1">PROGRAMAÇÃO SEMANAL</h2>
+      <br />
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Atividade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda-feira</td>
+            <td>Oração das 20h - 21h</td>
+          </tr>
+          <tr>
+            <td>Quarta-feira</td>
+            <td>Culto de libertação 20h</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>1º e 2º sábado do mês culto dos jovens 20h</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td>Culto da família as 9h30min e as 19h</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+    </div>
+    <div id="sobre">
+      <h2 class="titulo1">Quem Somos?</h2>
+      <p class="pr">
+        A <b>igreja ANAD</b>, é promessa do Senhor, anunciada por um profeta em
+        Portugal há anos atrás. Deus revelou a esse profeta que um homem seria
+        forjado em meio a lutas e tempestades e talhado para ser o líder de uma
+        igreja, ao qual seria ele um grande divisor de águas para muitas
+        pessoas. Feita de tijolos e cimento, cercado por paredes que não é nada,
+        apenas um prédio, mas que se transforma em um verdadeiro templo
+        santificado quando lá dentro se reúnem verdadeiros adoradores e um líder
+        para lhes falar sobre a doutrina de Cristo. E é esse líder que nos
+        ensina que a igreja “somos nós”. Então, em Abril de 2010, se cumpre a
+        profecia e finalmente nasce o <b>Ministério ANAD</b>. Aprendemos que a
+        verdade é que liberta, e assim vemos cumprindo a vontade do Senhor.
+      </p>
+    </div>
+    <div id="biblia">
+      <h2 class="titulo1">Bíblia</h2>
+      <h3 class="titulo2">Perguntas</h3>
+    </div>
+    <div class="caixa">
+      <div class="pergunta" onclick="toggleResposta(this)">
+        Porque ler a bíblia é importante?
+        <div class="resposta">
+          As escrituras contêm a palavra de Deus. Os profetas atuais
+          aconselham-nos a estudar as escrituras todos os dias, tanto
+          individualmente como em família. O estudo das escrituras pode
+          ajudar-nos a conhecer o Pai Celestial e Jesus Cristo, dar-nos forças
+          para resistir às tentações e fortalecer-nos em nossos desafios.
+        </div>
+      </div>
+      <div class="pergunta" onclick="toggleResposta(this)">
+        Porque a Bíblia é tão importante para nós?
+        <div class="resposta">
+          A Bíblia existe para que possamos compreender, temer, respeitar e amar
+          Deus sobre todas as coisas.
+        </div>
+      </div>
+      <div class="pergunta" onclick="toggleResposta(this)">
+        Quais os benefícios de ler a Bíblia?
+        <div class="resposta">
+          Fornece um nível de proteção contra a tentação e está relacionado com
+          menos envolvimento em comportamentos de risco, como pornografia e
+          pensamentos destrutivos.
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleResposta(element) {
+        const resposta = element.querySelector(".resposta");
+        resposta.style.display =
+          resposta.style.display === "block" ? "none" : "block";
+      }
+    </script>
+    <div>
+      <h2 class="titulo1">Versiculos</h2>
+    </div>
+    <div class="ims">
+      <img
+        height="400px"
+        width=""
+        src="images/Porque_sou_eu_que_conheço_os_planos_que_tenho_para_vocês___diz_o_Senhor___planos_de_fazê-los_prosperar_e_não_de_causar_dano__planos_de_dar_a_vocês_esperança_e_um_futuro._Jeremias_2911-removebg-preview.png"
+        alt=""
+      />
+      <img height="400px" src="images/isaias-removebg-preview.png" alt="" />
+      <img height="400px" src="images/icle-removebg-preview.png" alt="" />
+      <img height="400px" src="images/icle__1_-removebg-preview.png" alt="" />
+      <img height="400px" src="images/icle__2_-removebg-preview.png" alt="" />
+      <img height="400px" src="images/ilucas-removebg-preview.png" alt="" />
+    </div>
+    <div>
+      <h2 class="titulo1">Deseja Ser Membro?</h2>
+      <form method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Telefone:</label>
+        <input type="number" id="phone" name="phone" required />
+
+        <input type="submit" value="Enviar!" />
+      </form>
+      <br />
+      <br />
+      <br />
+    </div>
+  </body>
+  <footer style="background-color: #000000; padding: 20px" id="informacoes">
+    <div class="foot">
+      <h3>Localização</h3>
+      <p>
+        <a class="maps" href="https://maps.app.goo.gl/Fcpxf93KsYZqbo219"
+          >Av. Monteiro Lobato, 809
+        </a>
+        < CLIQUE AQUI!
+      </p>
+      <p>Guarulhos, SP - CEP 07112-000</p>
+    </div>
+    <div class="foot">
+      <h3>Horário de Funcionamento</h3>
+      <p>Aberto ⋅ Fecha às 18:00 ⋅ Reabre às 20:00</p>
+    </div>
+    <div class="foot">
+      <h3>Contato</h3>
+      <p>Telefone: (11) 2440-1418</p>
+    </div>
+  </footer>
+</html>
